@@ -19,7 +19,7 @@
 
 | Item | Status |
 | --- | --- |
-| Plugin version | `0.1.0-alpha.1` |
+| Plugin version | `0.1.0-alpha.2` |
 | Verified OpenClaw host | **2026.9.9** |
 | Node for source builds | 24.16+ |
 | Other OpenClaw versions | Not verified; the Plugin/Control UI API is experimental |
@@ -35,10 +35,10 @@ The same math adapter was exercised in a real OpenClaw 2026.9.9 conversation dur
 
 ### From the GitHub release
 
-Download `openclaw-chat-math-0.1.0-alpha.1.tgz` from the [alpha release](https://github.com/diregoblin/openclaw-chat-math/releases/tag/v0.1.0-alpha.1), and optionally check its SHA-256 against `SHA256SUMS`:
+Download `openclaw-chat-math-0.1.0-alpha.2.tgz` from the [alpha release](https://github.com/diregoblin/openclaw-chat-math/releases/tag/v0.1.0-alpha.2), and optionally check its SHA-256 against `SHA256SUMS`:
 
 ```sh
-openclaw plugins install ./openclaw-chat-math-0.1.0-alpha.1.tgz --accept-capabilities
+openclaw plugins install ./openclaw-chat-math-0.1.0-alpha.2.tgz --accept-capabilities
 openclaw plugins enable chat-math
 ```
 
@@ -47,7 +47,7 @@ openclaw plugins enable chat-math
 When the alpha is visible in the registry:
 
 ```sh
-openclaw plugins install clawhub:openclaw-chat-math@0.1.0-alpha.1 --accept-capabilities
+openclaw plugins install clawhub:openclaw-chat-math@0.1.0-alpha.2 --accept-capabilities
 openclaw plugins enable chat-math
 ```
 

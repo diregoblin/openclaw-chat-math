@@ -1,6 +1,6 @@
 {
   "name": "openclaw-chat-math",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "type": "module",
   "license": "MIT",
   "description": "Math-only LaTeX rendering in the native OpenClaw Control UI transcript",
@@ -11,6 +11,9 @@
     "controlUi": "./src/control-ui.ts",
     "compat": {
       "pluginApi": "2026.9.9"
+    },
+    "build": {
+      "openclawVersion": "2026.9.9"
     },
     "install": {
       "minHostVersion": ">=2026.9.9"

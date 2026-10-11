@@ -22,7 +22,7 @@ header{border-bottom:1px solid #303a4c;padding-bottom:18px;margin-bottom:20px}h1
 small{color:#abb8cf}.chat-text h2{font-size:18px;color:#9cc8ff;margin-top:25px}code{color:#a6d8c8}p{margin:10px 0}
 math{font-family:math}footer{color:#abb8cf;font-size:13px;border-top:1px solid #303a4c;margin-top:28px;padding-top:15px}
 </style>
-<main><header><h1>Chat Math</h1><small>0.1.0-alpha.1 · Local KaTeX → MathML · No CDN or bundled fonts</small></header>
+<main><header><h1>Chat Math</h1><small>0.1.0-alpha.2 · Local KaTeX → MathML · No CDN or bundled fonts</small></header>
 <article data-message-text><div class="chat-text"></div></article>
 <footer>Public sample rendered by the plugin's actual DOM adapter. This standalone preview is not an OpenClaw screenshot.</footer></main>
 <script type="module" src="./example.js"></script></html>`);
